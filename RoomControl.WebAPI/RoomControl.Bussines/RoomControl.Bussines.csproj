@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RoomControl.Core\RoomControl.Core.csproj" />
+    <ProjectReference Include="..\RoomControl.Data\RoomControl.Data.csproj" />
+    <ProjectReference Include="..\RoomControl.Shared\RoomControl.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

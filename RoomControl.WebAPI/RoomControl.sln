@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31808.319
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoomControl.WebApi", "RoomControl.WebApi\RoomControl.WebApi.csproj", "{90AE7D72-042E-48B3-9D98-E63E6B1FE51D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoomControl.Data", "RoomControl.Data\RoomControl.Data.csproj", "{5650AA40-097F-4E36-8E43-4A140399EB9A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoomControl.Core", "RoomControl.Core\RoomControl.Core.csproj", "{FBE14D4A-D81E-4819-957E-A3E7AA440518}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoomsControl.WebApi.Test", "RoomControl.WebApi.Test\RoomsControl.WebApi.Test.csproj", "{EEE432F4-A433-4F8E-92DB-2CA2F7EF6EF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8DDDCD31-A50A-4C19-A9C6-79C0E1819416}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		azure-pipelines.yml = azure-pipelines.yml
+		Dockerfile = Dockerfile
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomControl.Bussines", "RoomControl.Bussines\RoomControl.Bussines.csproj", "{ED262924-8E1B-4771-A6FE-15FC04643F13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomControl.Shared", "RoomControl.Shared\RoomControl.Shared.csproj", "{A6173974-001A-4601-AF34-AB5E22444843}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90AE7D72-042E-48B3-9D98-E63E6B1FE51D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90AE7D72-042E-48B3-9D98-E63E6B1FE51D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90AE7D72-042E-48B3-9D98-E63E6B1FE51D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90AE7D72-042E-48B3-9D98-E63E6B1FE51D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5650AA40-097F-4E36-8E43-4A140399EB9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5650AA40-097F-4E36-8E43-4A140399EB9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5650AA40-097F-4E36-8E43-4A140399EB9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5650AA40-097F-4E36-8E43-4A140399EB9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBE14D4A-D81E-4819-957E-A3E7AA440518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBE14D4A-D81E-4819-957E-A3E7AA440518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBE14D4A-D81E-4819-957E-A3E7AA440518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBE14D4A-D81E-4819-957E-A3E7AA440518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEE432F4-A433-4F8E-92DB-2CA2F7EF6EF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE432F4-A433-4F8E-92DB-2CA2F7EF6EF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEE432F4-A433-4F8E-92DB-2CA2F7EF6EF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE432F4-A433-4F8E-92DB-2CA2F7EF6EF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED262924-8E1B-4771-A6FE-15FC04643F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED262924-8E1B-4771-A6FE-15FC04643F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED262924-8E1B-4771-A6FE-15FC04643F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED262924-8E1B-4771-A6FE-15FC04643F13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6173974-001A-4601-AF34-AB5E22444843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6173974-001A-4601-AF34-AB5E22444843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6173974-001A-4601-AF34-AB5E22444843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6173974-001A-4601-AF34-AB5E22444843}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EDC0A62-0401-4220-8FA7-53E80381BC46}
+	EndGlobalSection
+EndGlobal
