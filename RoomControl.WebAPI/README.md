@@ -19,8 +19,8 @@ To test: dotnet test
 To Build: dotnet build  
 To Run: dotnet run  
 
-This is optional because the system once start, is ensure to build the database
-To Build the database: dotnet ef database update
+This is optional because the system once start, is ensure to build the database  
+To Build the database: dotnet ef database update  
 
 # Setting
 You need to change the connectionString's into the appsetting.json file
