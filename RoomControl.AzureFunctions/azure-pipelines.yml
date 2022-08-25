@@ -8,7 +8,7 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureSubscription: '3fb2ed02-7083-4e3d-94ed-4677c3d474a0'
+  azureSubscription: ''
 
   # Function app name
   functionAppName: 'roomcontrol'
