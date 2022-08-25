@@ -4,8 +4,11 @@ Rooms Control AzureFunctions is a Web API (Backend) that try to show the way I w
 # Tools and technologies
 1.	.NET 6
 2.	CosmosDB
-7.  Azure DevOps
-10. Azure Storage Blob
+3.  Azure DevOps
+4.  Azure Storage Blob
+5.  Visual Studio 2022
+6.  Visual Studio Code
+
 
 # Build
 Open a window terminal and run this commands  

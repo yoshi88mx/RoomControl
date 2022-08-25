@@ -12,6 +12,8 @@ Rooms Control is a Web API (Backend) that try to show the way I work, Im gonna l
 8.  xUnit
 9.  Moq
 10. Azure Storage Blob
+11. Visual Studio 2022
+12. Visual Studio Code
 
 # Build and Test
 Open a window terminal and run this commands  
