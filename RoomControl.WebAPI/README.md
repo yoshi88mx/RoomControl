@@ -14,10 +14,10 @@ Rooms Control is a Web API (Backend) that try to show the way I work, Im gonna l
 10. Azure Storage Blob
 
 # Build and Test
-Open a window terminal and run this commands
-To test: dotnet test
-To Build: dotnet build
-To Run: dotnet run
+Open a window terminal and run this commands  
+To test: dotnet test  
+To Build: dotnet build  
+To Run: dotnet run  
 
 This is optional because the system once start, is ensure to build the database
 To Build the database: dotnet ef database update
