@@ -1,20 +1,26 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+Rooms Control is a Web API (Backend) that try to show the way I work, Im gonna listing the Technologies, tools, etc, used to build this project.
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+# Tools and technologies
+1.	.NET 5
+2.	Entityframework Core 5 (Code First)
+3.	AutoMapper
+4.	FluentValidation
+5.	Swagger
+6.	Docker
+7.  Azure DevOps
+8.  xUnit
+9.  Moq
+10. Azure Storage Blob
 
 # Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+Open a window terminal and run this commands
+To test: dotnet test
+To Build: dotnet build
+To Run: dotnet run
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+This is optional because the system once start, is ensure to build the database
+To Build the database: dotnet ef database update
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+# Setting
+You need to change the connectionString's into the appsetting.json file
