@@ -14,6 +14,7 @@ Rooms Control is a Web API (Backend) that try to show the way I work, Im gonna l
 10. Azure Storage Blob
 11. Visual Studio 2022
 12. Visual Studio Code
+13. SQL Server
 
 # Build and Test
 Open a window terminal and run this commands  
@@ -23,6 +24,9 @@ To Run: dotnet run
 
 This is optional because the system once start, is ensure to build the database  
 To Build the database: dotnet ef database update  
+
+If you want to run using docker with your local instance of SQL Server  
+To Docker: docker run --rm --name stat -it -d -p 8090:8080 -e ConnectionStrings:SQL="Server=host.docker.internal;Database=RoomsControl;User Id=YOURUSERNAMEHERE;Password=YOURPASSWORDHERE;" NAMEORHASHIMAGE  
 
 # Setting
 You need to change the connectionString's into the appsetting.json file
