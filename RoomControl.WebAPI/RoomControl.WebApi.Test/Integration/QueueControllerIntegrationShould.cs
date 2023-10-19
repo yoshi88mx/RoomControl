@@ -38,7 +38,7 @@ namespace RoomsControl.WebApi.Test.Integration
             var result = await httpClient.GetFromJsonAsync<QueueDto>("api/v1/queues/1");
 
             Assert.NotNull(result);
-            Assert.True(result is QueueDto);
+            Assert.IsType<QueueDto>(result);
         }
 
         [Fact]
